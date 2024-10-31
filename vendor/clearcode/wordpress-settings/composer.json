@@ -1,0 +1,38 @@
+{
+  "name": "clearcode/wordpress-settings",
+  "type": "library",
+  "license": "GPL-3.0+",
+  "description": "WordPress Settings library by Clearcode.",
+  "homepage": "https://clearcode.cc",
+  "authors": [
+    {
+      "name": "Clearcode",
+      "homepage": "https://github.com/ClearcodeHQ"
+    },
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://github.com/PiotrPress"
+    }
+  ],
+  "keywords": [
+    "wordpress", "wp", "settings", "options" ,"library", "blog", "cms", "composer"
+  ],
+  "support": {
+    "issues": "https://github.com/ClearcodeHQ/wordpress-settings/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "require": {
+    "php": ">=7.4",
+    "clearcode/wordpress-framework": "6.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Clearcode\\Settings\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
